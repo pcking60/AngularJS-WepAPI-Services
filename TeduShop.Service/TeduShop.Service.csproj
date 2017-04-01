@@ -44,9 +44,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TedShop.Data\TedShop.Data.csproj">
+    <ProjectReference Include="..\TedShop.Data\TeduShop.Data.csproj">
       <Project>{cce6ad55-ea43-4648-975e-07348f58b59a}</Project>
-      <Name>TedShop.Data</Name>
+      <Name>TeduShop.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\Tedu.Common\Tedu.Common.csproj">
       <Project>{d4b15364-a666-4e34-89f4-25145be91fa3}</Project>
