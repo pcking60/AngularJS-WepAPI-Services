@@ -3,7 +3,7 @@ using TeduShop.Model.Models;
 
 namespace TedShop.Data.Repositories
 {
-    public interface ISystemConfigRepositor { }
+    public interface ISystemConfigRepositor:IRepository<SystemConfig> { }
 
     internal class SystemConfigRepository : RepositoryBase<SystemConfig>, ISystemConfigRepositor
     {

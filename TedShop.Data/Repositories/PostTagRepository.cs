@@ -3,7 +3,7 @@ using TeduShop.Model.Models;
 
 namespace TedShop.Data.Repositories
 {
-    public interface IPostTagRepository { }
+    public interface IPostTagRepository:IRepository<PostTag> { }
 
     public class PostTagRepository : RepositoryBase<PostTag>, IPostTagRepository
     {
